@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 67.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #222;
+}
+
+.container {
+  min-width: 30rem;
+  max-width: 90rem;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav {
+  margin: .5rem .75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h2 {
+  font-size: 1.9rem;
+  margin-left: .5rem;
+  font-family: 'PT Serif', serif;
+}
+
+.logo i {
+  font-size: 1rem;
+}
+
+.nav-links  ul {
+  display: flex;
+}
+
+.nav-links li {
+  padding: .5rem .6rem;
+}
+
+.nav-links a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-links a:hover {
+  color: magenta;
+}
+
+.nav-links span {
+  margin-right: .9rem;
+}
+
+.nav-links span i {
+  font-size: 2rem;
+}
+
+.book {
+  background: black;
+  border-radius: 50%;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+}
+
+.book  span a {
+  color: white;
+  font-size: .9rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.book span a:hover {
+  color: magenta;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 30rem;
+  max-width: 70rem;
+}
+
+.curved-div {
+  width: 100%;
+  height: 450px;
+  background-color: #3498db;
+  border-radius: 70% 0 0 0;
+  background-image: url('./imgs/ai-hero.jpg');
+  background-position: top;
+  background-size: cover;
+}
+
+.hero-text {
+  margin-top: 15rem;
+  margin-left: 1rem;
+}
+
+.hero-text h1 {
+  font-size: 3.4rem;
+  font-family: 'PT Serif', serif;
+}
+
+.hero-text p {
+  font-size: 2rem;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+}
+
+.hero-btn a {
+  font-size: 1.7rem;
+  color: magenta;
+}
+
+.hero-disc {
+  width: 20rem;
+  height: auto;
+  padding: 2rem 1rem;
+  background: magenta;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  border-radius: 0 70% 0 0;
+  font-family: 'PT Serif', serif;
+}
+
+.visit {
+  margin-bottom: .8rem;
+}
+
+.visit span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+.disc {
+  font-size: 2rem;
+}
+
+.disc-btn {
+  margin-top: .5rem;
+}
+
+.disc-btn a {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.disc-btn a:hover {
+  color: white;
+  background: rgb(151, 32, 151, .5);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.hours {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  justify-content: end;
+
+}
+.opentime {
+  margin: 0; 
+  padding-left: 1rem;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cards {
+  margin: 5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card-icon {
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.card i {
+  font-size: 1.5rem;
+}
+
+.card i {
+  font-size: 2.4rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 28%;
+}
+
+.card-text {
+  height: 8rem;
+}
+
+ .card-text h2,
+ .card-text p {
+  text-align: center;
+  margin-top: .1rem;
+ }
+
+ .card-text h2 {
+  font-size: 2.6rem;
+  font-family: 'PT Serif', serif;
+ }
+
+
+ .video-cards {
+  height: 20rem;
+  margin-top: 7rem;
+  display: flex;
+ }
+ .left-v-card,
+ .right-v-card {
+  width: 50%;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .left-v-card {
+  background: white;
+ }
+
+ .left-v-card h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-family: 'PT Serif', serif;
+ }
+
+ .left-v-card p {
+  padding-top: 1rem;
+  padding-left: 2rem;
+ }
+
+ .lv-card-btn {
+  padding: 2rem;
+ }
+
+ .lv-card-btn a {
+  font-size: 1.5rem;
+  font-weight: bold;
+ }
+
+ .lv-card-btn a:hover {
+  color: magenta;
+ }
+
+ .right-v-card {
+  background:#333;
+  z-index: 10;
+  position: relative;
+  background-image: url('./imgs/client-hair.jpg');
+  background-position: top;
+  background-size: cover;
+ }
+
+ .rv-play-btn {
+  border-radius: 50%;
+  background: black;
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.7), rgba(53, 52, 52, 0.8));;
+ }
+
+ .right-v-card i {
+  z-index: 3;
+  color: white;
+  font-size: 2.5rem;
+  position: absolute;
+ }
+ .right-v-card i:hover {
+  color: magenta;
+ }
+
+.staffmgt {
+  display: flex;
+  flex-direction: column;
+}
+
+ .staffmgt h2 {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-family: 'PT Serif', serif;
+ }
+
+ .staff-cards {
+  padding: 0;
+  margin: 0;
+ }
+
+ .card-img {
+  height: 30rem;
+  width: 20rem;
+  background: magenta;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .intro-box {
+  background: rgba(0, 0, 0, .7);
+  color: white;
+  /* padding: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26rem;
+  width: 10rem;
+  border-radius: 4px;
+ }
+
+ .card-img {
+  height: 30rem;
+  width: 20rem;
+  background: magenta;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .gm {
+  background-image: url('./imgs/generalmgr-pexels-amina-filkins-5414000.jpg');
+  background-size: cover;
+ }
+
+ .style-lead {
+  background-image: url('./imgs/stylists-mgr-pexels-cottonbro-studio-3992856.jpg');
+  background-size: cover;
+ }
+
+ .spa-lead {
+  background-image: url('./imgs/dayspa-mgr-pexels-ketut-subiyanto-4353615.jpg');
+  background-size: cover;
+ }
+
+ .img-container {
+  margin-top: 5rem;
+  background-image: url('./imgs/girl-2706454_640.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+ }
+
+ .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+ }
+
+ .text span {
+  font-size: 6rem;
+  font-weight: bold;
+  color: black;
+  font-family: 'PT Serif', serif;
+ }
+ .text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  font-family: 'PT Serif', serif;
+ }
+
+ .specials-btn {
+  width: 8rem;
+  height: 8rem;
+ }
+
+.look-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.look-header h2 {
+  font-size: 2rem;
+  font-family: 'PT Serif', serif;
+}
+
+ .lookbook {
+  display: flex;
+  height: 50rem;
+ }
+
+ .sec-1 {
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: white 1px solid;
+ }
+
+ .sec1-img1 {
+  width: auto;
+  height: 31%;
+  background: lightgreen;
+ }
+
+ .sec1-img2 {
+  width: auto;
+  height: 67%;
+  background: lightcyan;
+ }
+
+ .a {
+  background-image: url('./imgs/imga-pexels-heyy-kazz-18920913.jpg');
+  background-size: cover;
+  background-position: center;
+ }
+ 
+ .b {
+  background-image: url('./imgs/imgb-pexels-luis-fernandes-1852266.jpg');
+  background-size: cover;
+  background-position: center;
+ }
+
+ .c {
+  background-image: url('./imgs/imgc-makeup-8343081_640.jpg');
+  background-size: cover;
+  background-position: center;
+ }
+
+ .d {
+  background-image: url('./imgs/imgb-girl-487094_640.jpg');
+  background-size: cover;
+  background-position: center;
+ }
+
+ .sec-2 {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 1rem;
+  border: white 1px solid;
+ }
+
+ .sec2-img1 {
+  width: auto;
+  height: 67%;
+  background: lightgreen;
+  background-image: url('./imgs/sec2-colors-1097176_640.jpg');
+  background-size: cover;
+  background-position: center;
+ }
+
+ .sec2-img2 {
+  width: auto;
+  height: 31%;
+  background: lightcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./imgs/sec2-pexels-rdne-stock-project-6724442.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ }
+
+ .sec2-img2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Adjust the alpha value to control transparency (0.5 = 50% transparency) */
+  z-index: 1;
+ }
+
+ .more {
+  position: relative;
+  z-index: 2;
+  font-size: 7rem;
+  color: white;
+ }
+
+ .more:hover {
+  color: magenta;
+ }
